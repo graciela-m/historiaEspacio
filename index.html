@@ -1,0 +1,142 @@
+U7<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Experiencia espacial 2D en desarrollo."
+    />
+    <title>Historia del Espacio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="space-scene" aria-label="Escena espacial inicial">
+      <div class="space-world" aria-label="Mapa espacial">
+        <div class="stars stars-back" aria-hidden="true"></div>
+        <div class="stars stars-front" aria-hidden="true"></div>
+
+        <section class="planet-zone planet-earth" data-planet-id="earth" aria-label="Tierra" role="img">
+          <div class="planet-glow" aria-hidden="true"></div>
+          <div class="planet-surface" aria-hidden="true">
+            <img class="planet-image" alt="" hidden />
+          </div>
+          <span class="planet-name">Tierra</span>
+        </section>
+
+        <section class="planet-zone planet-moon" data-planet-id="moon" aria-label="Luna" role="img">
+          <div class="planet-surface" aria-hidden="true">
+            <img class="planet-image" alt="" hidden />
+          </div>
+          <span class="planet-name">Luna</span>
+        </section>
+
+        <section class="planet-zone planet-mars" data-planet-id="mars" aria-label="Marte" role="img">
+          <div class="planet-surface" aria-hidden="true">
+            <img class="planet-image" alt="" hidden />
+          </div>
+          <span class="planet-name">Marte</span>
+        </section>
+
+        <section class="planet-zone planet-jupiter" data-planet-id="jupiter" aria-label="Júpiter" role="img">
+          <div class="planet-surface" aria-hidden="true">
+            <img class="planet-image" alt="" hidden />
+          </div>
+          <span class="planet-name">Júpiter</span>
+        </section>
+
+        <section class="planet-zone planet-saturn" data-planet-id="saturn" aria-label="Saturno" role="img">
+          <div class="planet-surface" aria-hidden="true">
+            <img class="planet-image" alt="" hidden />
+          </div>
+          <span class="planet-name">Saturno</span>
+        </section>
+
+        <div class="deep-space" aria-label="Espacio profundo">
+          <span class="deep-space-name">Espacio profundo</span>
+        </div>
+
+        <div class="space-ship" aria-label="Nave espacial" role="img">
+          <div class="ship-body" aria-hidden="true"></div>
+          <div class="ship-wing ship-wing-left" aria-hidden="true"></div>
+          <div class="ship-wing ship-wing-right" aria-hidden="true"></div>
+          <div class="ship-engine" aria-hidden="true"></div>
+        </div>
+      </div>
+    </main>
+
+    <div class="zone-indicator" aria-live="polite">
+      <strong class="zone-indicator-name">TIERRA</strong>
+      <span class="zone-indicator-description">Zona inicial</span>
+      <span class="zone-indicator-discoveries">0 / 0 descubiertos</span>
+    </div>
+
+    <div class="discovery-counter" aria-live="polite">Descubiertos: 0 / 0</div>
+
+    <aside class="zone-introduction" aria-live="polite" aria-atomic="true" hidden>
+      <h2 class="zone-introduction-title"></h2>
+      <p class="zone-introduction-text"></p>
+    </aside>
+
+    <div class="proximity-prompt" aria-live="polite" hidden>
+      <strong class="proximity-object-name"></strong>
+      <span class="proximity-instruction">Presiona E para descubrir su historia</span>
+    </div>
+
+    <p class="controls-help" aria-live="polite">WASD / Flechas para moverte</p>
+
+    <dialog class="story-dialog" aria-labelledby="story-title">
+      <article class="story-card">
+        <header class="story-header">
+          <span class="story-kicker">ARCHIVO DE EXPLORACIÓN · TRANSMISIÓN RECIBIDA</span>
+          <button class="story-close" type="button" aria-label="Cerrar ficha">×</button>
+        </header>
+        <div class="story-content">
+          <div class="story-visual" aria-hidden="true">
+            <img class="story-visual-image" alt="" hidden />
+            <span class="story-visual-orbit"></span>
+            <span class="story-visual-object"></span>
+            <span class="story-visual-caption">REGISTRO VISUAL</span>
+          </div>
+          <div class="story-details">
+            <p class="story-year"></p>
+            <h1 class="story-title" id="story-title"></h1>
+            <p class="story-type" hidden></p>
+            <p class="story-mission"></p>
+            <p class="story-destination"></p>
+            <dl class="story-planet-facts" hidden>
+              <div><dt>Diámetro</dt><dd class="story-diameter"></dd></div>
+              <div><dt>Distancia al Sol</dt><dd class="story-distance"></dd></div>
+              <div><dt>Lunas</dt><dd class="story-moons"></dd></div>
+              <div><dt>Temperatura</dt><dd class="story-temperature"></dd></div>
+            </dl>
+            <blockquote class="story-highlight"></blockquote>
+            <p class="story-history"></p>
+          </div>
+        </div>
+        <footer class="story-footer">
+          <span class="story-status">FIN DE TRANSMISIÓN</span>
+          <button class="story-continue" type="button">Continuar viaje</button>
+        </footer>
+      </article>
+    </dialog>
+
+    <section class="completion-screen" role="dialog" aria-modal="true" aria-labelledby="completion-title" hidden>
+      <div class="completion-card">
+        <span class="completion-kicker">REGISTRO DE EXPLORACIÓN · TRANSMISIÓN FINAL</span>
+        <h1 class="completion-title" id="completion-title">Exploración completada</h1>
+        <div class="completion-story">
+          <p>Comenzamos mirando el cielo desde la Tierra.</p>
+          <p>Después enviamos máquinas para observarlo más de cerca.</p>
+          <p>Algunas llegaron a otros mundos.</p>
+          <p>Otras continuaron viajando mucho después de completar su misión.</p>
+          <p>Cada una lleva consigo una parte de nuestra curiosidad.</p>
+        </div>
+        <p class="completion-highlight"></p>
+        <button class="completion-continue" type="button">Seguir explorando</button>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

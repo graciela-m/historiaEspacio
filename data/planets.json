@@ -1,0 +1,72 @@
+[
+  {
+    "id": "earth",
+    "name": "Tierra",
+    "type": "Planeta rocoso",
+    "image": "images/earth.jpg",
+    "diameter": "12,742 km",
+    "distanceFromSun": "149.6 millones de km",
+    "moons": "1",
+    "temperature": "aprox. 15 °C",
+    "highlight": "Un mundo azul donde la vida encontró un hogar.",
+    "story": "Desde el espacio, la Tierra aparece como una esfera azul y viva. Su agua líquida, su atmósfera y sus ecosistemas hacen de este planeta nuestro hogar y un lugar único que seguimos aprendiendo a cuidar.",
+    "x": 180,
+    "y": 1230
+  },
+  {
+    "id": "moon",
+    "name": "Luna",
+    "type": "Satélite natural",
+    "image": "images/moon.jpg",
+    "diameter": "3,474 km",
+    "distanceFromSun": "149.6 millones de km",
+    "moons": "0",
+    "temperature": "de -173 °C a 127 °C",
+    "highlight": "El primer otro mundo que pisó la humanidad.",
+    "story": "La Luna acompaña a la Tierra y conserva en sus cráteres las huellas de una historia muy antigua. Las misiones Apolo llevaron allí a seres humanos, y nuevas exploraciones estudian cómo volver.",
+    "x": 700,
+    "y": 420
+  },
+  {
+    "id": "mars",
+    "name": "Marte",
+    "type": "Planeta rocoso",
+    "image": "images/mars.jpg",
+    "diameter": "6,779 km",
+    "distanceFromSun": "227.9 millones de km",
+    "moons": "2",
+    "temperature": "aprox. -63 °C",
+    "highlight": "Un planeta rojo que guarda pistas sobre su pasado.",
+    "story": "Durante siglos lo observamos como un punto rojo en el cielo. Hoy robots recorren su superficie y estudian antiguos ríos y minerales para descubrir si alguna vez pudo albergar vida.",
+    "x": 1480,
+    "y": 1100
+  },
+  {
+    "id": "jupiter",
+    "name": "Júpiter",
+    "type": "Gigante gaseoso",
+    "image": "images/jupiter.jpg",
+    "diameter": "139,820 km",
+    "distanceFromSun": "778.5 millones de km",
+    "moons": "95 conocidas",
+    "temperature": "aprox. -110 °C en las nubes",
+    "highlight": "Un gigante de tormentas con mundos oceánicos a su alrededor.",
+    "story": "Júpiter domina el sistema solar con sus bandas de nubes y tormentas enormes. Algunas de sus lunas, como Europa, podrían esconder océanos bajo una corteza de hielo.",
+    "x": 2440,
+    "y": 860
+  },
+  {
+    "id": "saturn",
+    "name": "Saturno",
+    "type": "Gigante gaseoso",
+    "image": "images/saturn.jpg",
+    "diameter": "116,460 km",
+    "distanceFromSun": "1,434 millones de km",
+    "moons": "146 conocidas",
+    "temperature": "aprox. -140 °C en las nubes",
+    "highlight": "Sus anillos cuentan la historia de incontables fragmentos de hielo.",
+    "story": "Saturno parece llevar un delicado sistema de anillos, formado por incontables fragmentos de hielo y roca. La misión Cassini exploró el planeta y reveló mundos sorprendentes entre sus lunas.",
+    "x": 3620,
+    "y": 760
+  }
+]

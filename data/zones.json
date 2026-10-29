@@ -1,0 +1,38 @@
+[
+  {
+    "id": "earth",
+    "name": "Tierra",
+    "title": "Nuestro punto de partida",
+    "intro": "Antes de explorar otros mundos, aprendimos a mirar nuestro propio planeta desde el espacio."
+  },
+  {
+    "id": "moon",
+    "name": "Luna",
+    "title": "Nuestro primer vecino",
+    "intro": "La Luna fue el primer mundo fuera de la Tierra que intentamos conocer de cerca."
+  },
+  {
+    "id": "mars",
+    "name": "Marte",
+    "title": "El planeta rojo",
+    "intro": "Durante siglos fue solo un punto rojo en el cielo. Hoy varias máquinas humanas recorren su superficie."
+  },
+  {
+    "id": "jupiter",
+    "name": "Júpiter",
+    "title": "Un gigante entre mundos",
+    "intro": "Júpiter es tan grande que podría contener más de mil Tierras. Estudiarlo exigió enviar máquinas a un entorno extremo."
+  },
+  {
+    "id": "saturn",
+    "name": "Saturno",
+    "title": "El mundo de los anillos",
+    "intro": "Sus anillos lo hicieron famoso, pero las misiones espaciales revelaron un sistema mucho más complejo."
+  },
+  {
+    "id": "deep-space",
+    "name": "Espacio profundo",
+    "title": "Más allá de los planetas",
+    "intro": "Algunas máquinas continuaron viajando incluso después de completar su misión. Aquí comienza el espacio profundo."
+  }
+]
